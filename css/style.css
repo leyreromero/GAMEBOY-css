@@ -134,3 +134,58 @@
 #col-3 {
   background-color: yellow;
 }
+
+.upward {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 5px;
+  right: -60px;
+  width: 40px;
+  height: 40px;
+  background-color: purple;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 45px;
+  right: 99px;
+  width: 40px;
+  height: 40px;
+  background-color: pink;
+}
+
+.down {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 85px;
+  right: -20.8px;
+  width: 40px;
+  height: 40px;
+  background-color: green;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 45px;
+  right: -20.8px;
+  width: 40px;
+  height: 40px;
+  background-color: yellow;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 45px;
+  right: 99px;
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+}
