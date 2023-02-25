@@ -26,12 +26,9 @@
   justify-content: center;
   width: 400px;
   height: 350px;
-  background-color: red;
 }
 
 .screen {
-  display: flex;
-  justify-content: center;
   background-color: #5a5852;
   border: 32px solid #272526;
   margin-top: 25px;
@@ -41,65 +38,49 @@
   box-shadow: inset 0px 0px 7px black;
 }
 
+.gameboy-box {
+  display: flex;
+  justify-content: center;
+}
 .gameboy {
-  height: 10%;
+  letter-spacing: 1px;
   font-family: "ComicSansMS";
   font-weight: bolder;
-  font-size: 12px;
+  font-size: 20px;
   color: #597981;
 }
 
 .letter-c {
-  display: flex;
-  position: relative;
-  top: 12px;
-  justify-content: center;
-  font-weight: bolder;
   font-family: "ComicSansMS";
-  font-size: 12px;
+  font-weight: bolder;
+  font-size: 20px;
   color: rgba(131, 28, 28, 0.903);
 }
 
 .letter-o {
-  display: flex;
-  position: relative;
-  top: 12px;
-  justify-content: center;
-  font-weight: bolder;
   font-family: "ComicSansMS";
-  font-size: 12px;
+  font-weight: bolder;
+  font-size: 20px;
   color: rgba(134, 77, 184, 0.822);
 }
 
 .letter-l {
-  display: flex;
-  position: relative;
-  top: 12px;
-  justify-content: center;
-  font-weight: bolder;
   font-family: "ComicSansMS";
-  font-size: 12px;
+  font-weight: bolder;
+  font-size: 20px;
   color: rgba(73, 157, 73, 0.877);
 }
 
 .letter-o2 {
-  display: flex;
-  position: relative;
-  top: 12px;
-  justify-content: center;
-  font-weight: bolder;
   font-family: "ComicSansMS";
-  font-size: 12px;
+  font-weight: bolder;
+  font-size: 20px;
   color: rgba(238, 226, 4, 0.756);
 }
 
 .letter-r {
-  display: flex;
-  position: relative;
-  top: 12px;
-  justify-content: center;
-  font-weight: bolder;
   font-family: "ComicSansMS";
-  font-size: 12px;
+  font-weight: bolder;
+  font-size: 20px;
   color: rgba(127, 255, 249, 0.668);
 }
