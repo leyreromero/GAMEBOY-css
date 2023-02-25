@@ -38,7 +38,7 @@
   box-shadow: inset 0px 0px 7px black;
 }
 
-.gameboy-box {
+.box-gameboy {
   display: flex;
   justify-content: center;
 }
@@ -83,4 +83,54 @@
   font-weight: bolder;
   font-size: 20px;
   color: rgba(127, 255, 249, 0.668);
+}
+
+.box-nintendo {
+  display: flex;
+  justify-content: center;
+}
+
+.nintendo {
+  font-size: 1.5em;
+  color: #14b0be;
+  border: 2px solid #14b0be99;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 230px;
+  box-shadow: inset rgb(20 176 190) 0px 0px 4px,
+    rgb(142 215 222) 0px 4px 13px -3px,
+    rgb(164 239 246 / 84%) 0px -2px 0px inset;
+}
+
+.keypad {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50%;
+  height: 150px;
+  margin-top: 15px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50%;
+  height: 150px;
+  margin-top: 15px;
+}
+
+#col-1 {
+  background-color: red;
+}
+
+#col-3 {
+  background-color: yellow;
 }
