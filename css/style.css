@@ -118,19 +118,6 @@
   margin-top: 15px;
 }
 
-.section2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 50%;
-  height: 150px;
-  margin-top: 15px;
-}
-
-#col-1 {
-  background-color: red;
-}
-
 #col-3 {
   background-color: yellow;
 }
@@ -140,52 +127,93 @@
   justify-content: center;
   position: relative;
   top: 5px;
+  z-index: 1;
   right: -60px;
   width: 40px;
   height: 40px;
-  background-color: purple;
+  background-color: hsl(180deg 4% 26%);
+  border-top: 2px solid rgba(255, 255, 255, 0.08);
+  border-right: 2px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 4px 0px 5px 3px #00000082;
+}
+
+.upPad {
+  position: relative;
+  top: 10px;
 }
 
 .center {
   display: flex;
   justify-content: center;
   position: relative;
+  z-index: 1;
   top: 45px;
   right: 99px;
   width: 40px;
   height: 40px;
-  background-color: pink;
+  background-color: hsl(180deg 4% 26%);
 }
 
 .down {
   display: flex;
   justify-content: center;
   position: relative;
+  z-index: 1;
   top: 85px;
   right: -20.8px;
   width: 40px;
   height: 40px;
-  background-color: green;
+  background-color: hsl(180deg 4% 26%);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 3px 2px 5px 3px #00000082;
 }
 
+.downPad {
+  position: relative;
+  top: 10px;
+}
 .right {
   display: flex;
   justify-content: center;
   position: relative;
+  z-index: 1;
   top: 45px;
   right: -20.8px;
   width: 40px;
   height: 40px;
-  background-color: yellow;
+  background-color: hsl(180deg 4% 26%);
+  border-top: 2px solid rgba(255, 255, 255, 0.08);
+  border-right: 2px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 5px 1px 9px 5px #00000082;
 }
 
+.rightPad {
+  position: relative;
+  top: 10px;
+}
 .left {
   display: flex;
   justify-content: center;
   position: relative;
+  z-index: 1;
   top: 45px;
   right: 99px;
   width: 40px;
   height: 40px;
-  background-color: blue;
+  background-color: hsl(180deg 4% 26%);
+  border-top: 2px solid rgba(255, 255, 255, 0.08);
+}
+
+.leftPad {
+  position: relative;
+  top: 7px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50%;
+  height: 150px;
+  margin-top: 15px;
 }
