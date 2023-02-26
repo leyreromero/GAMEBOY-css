@@ -1,6 +1,7 @@
 function start() {
-  const message = document.getElementById("message");
-  message.style.display = "block";
+  const startPad = document.getElementById("startPad");
+  const screen = document.getElementById("screen");
+  screen.style.backgroundColor = "red";
 }
 
 const startButton = document.getElementById("startButton");
