@@ -16,8 +16,9 @@
   margin: 15px;
   border-top-right-radius: 3%;
   border-top-left-radius: 3%;
-  border-bottom-left-radius: 9%;
-  border-bottom-right-radius: 9%;
+  border-bottom-left-radius: 8%;
+  border-bottom-right-radius: 8%;
+  box-shadow: inset 0px -2px 8px 0px rgba(0, 0, 0, 0.547);
 }
 
 /* Es el contenedor donde va a ir la pantalla */
@@ -36,6 +37,10 @@
   height: 250px;
   border-radius: 4%;
   box-shadow: inset 0px 0px 7px black;
+}
+
+.message {
+  display: block;
 }
 
 .box-gameboy {
@@ -298,7 +303,7 @@
 .startPad {
   width: 60px;
   height: 25px;
-  background-color: #3e3d49;
+  background-color: hsl(180deg 4% 26%);
   border-radius: 40%;
   box-shadow: rgb(0 0 0 / 17%) 2px -3px 0px 0px inset,
     rgb(0 0 0 / 15%) 0px 1px 0px 0px inset, rgb(0 0 0 / 10%) 0px 1px 40px 0px,
@@ -312,8 +317,12 @@
   font-family: "ComicSansMS";
   text-align: center;
   padding-top: 6px;
+  cursor: pointer;
 }
 
+.startPad:hover {
+  color: white;
+}
 .section4 {
   display: flex;
   justify-content: center;
