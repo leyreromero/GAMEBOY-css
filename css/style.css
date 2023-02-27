@@ -147,6 +147,7 @@
   border-top: 2px solid rgba(255, 255, 255, 0.08);
   border-right: 2px solid rgba(255, 255, 255, 0.08);
   box-shadow: 4px 0px 5px 3px #00000082;
+  text-shadow: 0px 0px 3px white;
 }
 
 .upPad {
@@ -176,6 +177,7 @@
   background-color: hsl(180deg 4% 26%);
   border-bottom: 2px solid rgba(255, 255, 255, 0.08);
   box-shadow: 3px 2px 5px 3px #00000082;
+  text-shadow: 0px 0px 3px white;
 }
 
 .downPad {
@@ -194,6 +196,7 @@
   border-top: 2px solid rgba(255, 255, 255, 0.08);
   border-right: 2px solid rgba(255, 255, 255, 0.08);
   box-shadow: 5px 1px 9px 5px #00000082;
+  text-shadow: 0px 0px 3px white;
 }
 
 .rightPad {
@@ -210,6 +213,7 @@
   height: 40px;
   background-color: hsl(180deg 4% 26%);
   border-top: 2px solid rgba(255, 255, 255, 0.08);
+  text-shadow: 0px 0px 3px white;
 }
 
 .leftPad {
@@ -252,6 +256,7 @@
   font-size: 30px;
   right: 25px;
   width: 60px;
+  text-shadow: 1px 0px 3px white;
 }
 
 .buttonA {
@@ -279,6 +284,7 @@
   font-size: 30px;
   right: 25px;
   width: 60px;
+  text-shadow: 1px 0px 3px white;
 }
 
 .bottom-case {
@@ -315,6 +321,7 @@
   text-align: center;
   padding-top: 6px;
   cursor: pointer;
+  text-shadow: 1px 0px 1px white;
 }
 
 .startPad:hover {

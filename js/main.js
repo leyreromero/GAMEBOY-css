@@ -1,5 +1,4 @@
 function start() {
-  const startPad = document.getElementById("startPad");
   const screen = document.getElementById("screen");
   screen.style.backgroundColor = "red";
 }
