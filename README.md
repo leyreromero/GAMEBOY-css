@@ -20,7 +20,7 @@ To start using the app we just have to clik the 'start' button. We will see that
 
 ### Demo & screenshoots
 
-To preview the demo <a href="https://leyreromero.github.io/gameboy-1/" > tap here </a>.
+To preview the demo <a href=" https://leyreromero.github.io/GAMEBOY-css/" > tap here </a>.
 
 The screenshoots with and without pressing the bottom 'start'.
 <img src="./images/capt1.png" alt="preview console" width="300" heigth="500">
