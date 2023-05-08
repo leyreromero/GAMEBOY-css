@@ -4,7 +4,6 @@
 
 - [Introduction](#introduction)
 - [Requirements & Usage](#requirements)
-- [Built with](#builtwith)
 - [Screenshots](#screenshots)
 
 ## Introduction <a name = "introduction"></a>
